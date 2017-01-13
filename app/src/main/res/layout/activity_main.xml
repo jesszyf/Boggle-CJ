@@ -15,47 +15,46 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:layout_weight="0.85">
+        android:layout_weight="0.50">
 
         <GridLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
             android:columnCount="4"
             android:orientation="horizontal">
 
+            <Button tools:text="1" />
 
-            <Button android:text="1" />
+            <Button tools:text="2" />
 
-            <Button android:text="2" />
+            <Button tools:text="3"/>
 
-            <Button android:text="3" />
+            <Button tools:text="4" />
 
-            <Button android:text="4" />
+            <Button tools:text="5" />
 
-            <Button android:text="5" />
+            <Button tools:text="6" />
 
-            <Button android:text="6" />
+            <Button tools:text="7" />
 
-            <Button android:text="7" />
+            <Button tools:text="8" />
 
-            <Button android:text="8" />
+            <Button tools:text="9" />
 
-            <Button android:text="9" />
+            <Button tools:text="10" />
 
-            <Button android:text="10" />
+            <Button tools:text="11" />
 
-            <Button android:text="11" />
+            <Button tools:text="12" />
 
-            <Button android:text="12" />
+            <Button tools:text="13" />
 
-            <Button android:text="13" />
+            <Button tools:text="14" />
 
-            <Button android:text="14" />
+            <Button tools:text="15" />
 
-            <Button android:text="15" />
-
-            <Button android:text="16" />
+            <Button tools:text="16" />
 
         </GridLayout>
 
@@ -65,7 +64,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:layout_weight="0.21">
+        android:layout_weight="0.50">
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -88,7 +87,7 @@
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" 
+                android:layout_height="wrap_content"
                 android:text="Check up"/>
         </RelativeLayout>
 
