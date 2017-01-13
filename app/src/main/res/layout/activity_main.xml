@@ -127,7 +127,8 @@
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:textSize="30dp"
-                android:text="Typed Words"/>
+                android:text="Typed Words"
+                android:id="@+id/typedWord" />
         </RelativeLayout>
 
         <RelativeLayout
