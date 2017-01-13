@@ -12,143 +12,64 @@
     tools:context="com.example.demouser.boggle_cj.MainActivity"
     android:weightSum="1">
 
-    <LinearLayout
+    <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:columnCount="4"
+        android:orientation="horizontal"
         android:layout_weight="0.50">
 
-        <GridLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:columnCount="4"
-            android:orientation="horizontal">
 
-            <Button tools:text="1" />
+        <Button android:text="1"
+            android:id="@+id/button00" />
 
-<<<<<<< HEAD
-            <Button tools:text="2" />
+        <Button android:text="2"
+            android:id="@+id/button01" />
 
-            <Button tools:text="3"/>
+        <Button android:text="3"
+            android:id="@+id/button02" />
 
-            <Button tools:text="4" />
+        <Button android:text="4"
+            android:id="@+id/button03" />
 
-            <Button tools:text="5" />
+        <Button android:text="5"
+            android:id="@+id/button10" />
 
-            <Button tools:text="6" />
+        <Button android:text="6"
+            android:id="@+id/button11" />
 
-            <Button tools:text="7" />
+        <Button android:text="7"
+            android:id="@+id/button12" />
 
-            <Button tools:text="8" />
+        <Button android:text="8"
+            android:id="@+id/button13" />
 
-            <Button tools:text="9" />
+        <Button android:text="9"
+            android:id="@+id/button20" />
 
-            <Button tools:text="10" />
+        <Button android:text="10"
+            android:id="@+id/button21" />
 
-            <Button tools:text="11" />
+        <Button android:text="11"
+            android:id="@+id/button22" />
 
-            <Button tools:text="12" />
+        <Button android:text="12"
+            android:id="@+id/button23" />
 
-            <Button tools:text="13" />
+        <Button android:text="13"
+            android:id="@+id/button30" />
 
-            <Button tools:text="14" />
+        <Button android:text="14"
+            android:id="@+id/button31" />
 
-            <Button tools:text="15" />
+        <Button android:text="15"
+            android:id="@+id/button32" />
 
-            <Button tools:text="16" />
-=======
-            <Button android:text="1"
-                android:id="@+id/button00" />
-
-            <Button android:text="2"
-                android:id="@+id/button01" />
-
-            <Button android:text="3"
-                android:id="@+id/button02" />
-
-            <Button android:text="4"
-                android:id="@+id/button03" />
-
-            <Button android:text="5"
-                android:id="@+id/button10" />
-
-            <Button android:text="6"
-                android:id="@+id/button11" />
-
-            <Button android:text="7"
-                android:id="@+id/button12" />
-
-            <Button android:text="8"
-                android:id="@+id/button13" />
-
-            <Button android:text="9"
-                android:id="@+id/button20" />
-
-            <Button android:text="10"
-                android:id="@+id/button21" />
-
-            <Button android:text="11"
-                android:id="@+id/button22" />
-
-            <Button android:text="12"
-                android:id="@+id/button23" />
-
-            <Button android:text="13"
-                android:id="@+id/button30" />
-
-            <Button android:text="14"
-                android:id="@+id/button31" />
-
-            <Button android:text="15"
-                android:id="@+id/button32" />
-
-            <Button android:text="16"
-                android:id="@+id/button33" />
->>>>>>> origin/master
-
-        </GridLayout>
+        <Button android:text="16"
+            android:id="@+id/button33" />
 
 
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_weight="0.50">
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1">
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:textSize="30dp"
-                android:text="Typed Words"
-                android:id="@+id/typedWord" />
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1">
-
-            <Button
-                android:layout_width="wrap_content"
-<<<<<<< HEAD
-                android:layout_height="wrap_content"
-                android:text="Check up"/>
-=======
-                android:layout_height="wrap_content" 
-                android:text="Check up"
-                android:id="@+id/checkButton" />
->>>>>>> origin/master
-        </RelativeLayout>
-
-
-    </LinearLayout>
+    </GridLayout>
 
 </LinearLayout>

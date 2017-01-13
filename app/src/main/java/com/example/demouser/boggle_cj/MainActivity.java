@@ -1,6 +1,6 @@
 package com.example.demouser.boggle_cj;
 
-<<<<<<< HEAD
+
 import android.content.res.AssetManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,13 +8,13 @@ import android.widget.Toast;
 
 import java.io.IOException;
 import java.io.InputStream;
-=======
+
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
->>>>>>> origin/master
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-<<<<<<< HEAD
+
         //load the words.txt file
         AssetManager assetManager = getAssets();
         try {
@@ -46,8 +46,6 @@ public class MainActivity extends AppCompatActivity {
             toast.show();
         }
 
-=======
->>>>>>> origin/master
     }
 
     private void check()
