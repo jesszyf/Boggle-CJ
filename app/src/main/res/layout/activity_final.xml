@@ -16,6 +16,15 @@
         android:layout_width="match_parent"
         android:layout_height="150dp">
 
+        <TextView
+            android:text="THIS IS THE FINAL ACTIVITY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:id="@+id/finalView" />
+
 
     </LinearLayout>
 
@@ -30,13 +39,21 @@
             android:layout_weight="1">
 
             <TextView
-                android:text="Your Words"
+                android:text="Correct Words"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="14dp"
-                android:id="@+id/typedWords" />
+                android:id="@+id/correctWord" />
+
+            <TextView
+                android:text="words"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/correctWords" />
         </RelativeLayout>
 
 
@@ -47,13 +64,21 @@
             android:layout_weight="1">
 
             <TextView
-                android:text="Answer Keys"
+                android:text="Wrong Words"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="14dp"
-                android:id="@+id/answerKey" />
+                android:id="@+id/wrongWord" />
+
+            <TextView
+                android:text="words"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/wrongWords" />
 
         </RelativeLayout>
 
