@@ -37,6 +37,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="14dp"
                 android:id="@+id/typedWords" />
+
         </RelativeLayout>
 
 
@@ -54,6 +55,14 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="14dp"
                 android:id="@+id/answerKey" />
+
+            <Button
+                android:text="Play Again"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/resetButton"
+                android:layout_marginBottom="50dp"
+                android:layout_alignParentBottom="true" />
 
         </RelativeLayout>
 
