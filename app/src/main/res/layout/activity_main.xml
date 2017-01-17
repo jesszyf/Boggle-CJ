@@ -80,17 +80,45 @@
         android:id="@+id/ControlField">
 
         <TextView
-            android:text="Typed Word"
-            android:id="@+id/typedWord"
+            android:text="Typing Word"
+            android:id="@+id/typingWord"
             android:textSize="40sp"
             android:layout_width="match_parent"
-            android:layout_height="60dp" />
+            android:layout_height="50dp" />
 
-        <Button
-            android:text="Check Answer"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/checkButton" />
+        <TextView
+            android:text="      User Typed Words"
+            android:layout_width="match_parent"
+            android:id="@+id/userTyped"
+            android:layout_height="120dp"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="Clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/clearButton"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="Enter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/enterButton"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="Finish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/finishButton"
+                android:layout_weight="1" />
+        </LinearLayout>
 
     </LinearLayout>
 
