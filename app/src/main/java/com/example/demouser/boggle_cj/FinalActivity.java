@@ -1,8 +1,14 @@
 package com.example.demouser.boggle_cj;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.widget.TextView;
+=======
+import android.view.View;
+import android.widget.Button;
+>>>>>>> origin/master
 
 public class FinalActivity extends AppCompatActivity {
 
@@ -15,6 +21,7 @@ public class FinalActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_final);
 
+<<<<<<< HEAD
         for (String obj: main.getWordList()){
 
             System.out.println(obj);
@@ -31,5 +38,21 @@ public class FinalActivity extends AppCompatActivity {
         ((TextView)findViewById(R.id.correctWords)).setText(correct);
         ((TextView)findViewById(R.id.wrongWords)).setText(wrong);
 
+=======
+        ((Button) findViewById(R.id.resetButton)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                reset();
+            }
+        });
+>>>>>>> origin/master
     }
+
+        // reset method, from final activity back to start activity
+    private void reset()
+    {
+        startActivity(new Intent(this, StartActivity.class));
+
+    }
+
 }

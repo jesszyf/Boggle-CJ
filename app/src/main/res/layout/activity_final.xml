@@ -45,6 +45,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="14dp"
+<<<<<<< HEAD
                 android:id="@+id/correctWord" />
 
             <TextView
@@ -54,6 +55,10 @@
                 android:layout_marginTop="50dp"
                 android:layout_centerHorizontal="true"
                 android:id="@+id/correctWords" />
+=======
+                android:id="@+id/typedWords" />
+
+>>>>>>> origin/master
         </RelativeLayout>
 
 
@@ -79,6 +84,14 @@
                 android:layout_marginTop="50dp"
                 android:layout_centerHorizontal="true"
                 android:id="@+id/wrongWords" />
+
+            <Button
+                android:text="Play Again"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/resetButton"
+                android:layout_marginBottom="50dp"
+                android:layout_alignParentBottom="true" />
 
         </RelativeLayout>
 
